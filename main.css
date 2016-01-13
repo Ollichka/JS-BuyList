@@ -1,3 +1,25 @@
 h1 {
     color: green;
 }
+*{
+    background-color: #bec0b5;
+
+}
+.frame1{
+    background-color: white;
+    width:55%;
+    padding: 10px;
+    margin: 50px;
+    margin-right: 25px;
+    float: left;
+    color: green;
+}
+.frame2{
+    background-color: white;
+    width:30%;
+    padding: 10px;
+    margin: 50px;
+    margin-left: 25px;
+    float: left;
+    color: red;
+}
