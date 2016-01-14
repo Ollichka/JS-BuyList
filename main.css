@@ -1,25 +1,92 @@
-h1 {
-    color: green;
-}
+
 *{
-    background-color: #bec0b5;
+    background-color: rgba(186, 177, 169, 0.34);
+    border-radius: 5px;
 
 }
 .frame1{
     background-color: white;
-    width:55%;
     padding: 10px;
-    margin: 50px;
-    margin-right: 25px;
+    margin: 100px;
+    /*margin-right: 25px;*/
+    box-shadow: 0 0 3px gray;
     float: left;
-    color: green;
 }
 .frame2{
     background-color: white;
-    width:30%;
+    /*width:30%;*/
     padding: 10px;
-    margin: 50px;
+    margin: 100px;
     margin-left: 25px;
     float: left;
-    color: red;
+}
+.button{
+    width: 20%;
+    height: 37px;
+    background-color: blue;
+    color: white;
+}
+.button1{
+    width: 40px;
+    border-radius: 100%;
+    padding: 10%;
+    text-align:center;
+    border:10px;
+    color:white;
+}
+
+
+.button2{
+    width: 65px;
+    height: 35px;
+    display:	inline-block;
+    box-shadow: 0 0 3px gray;
+}
+.button3{
+    width: 35px;
+    height: 35px;
+    display:	inline-block;
+    background-color: red;
+    color: white;
+    margin:2px;
+}
+.text{
+    background-color: white;
+    float: left;
+    width: 75%;
+    height: 30px;
+
+}
+.prod{
+    background-color: white;
+    height: 30px;
+}
+.count{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align:center;
+}
+.a1{
+    display:	inline-block;
+    background-color: white;
+    margin-right:150px;
+    margin-left:150px;
+}
+.select{
+    width: 60px;
+    height: 50px;
+    padding:8px;
+    margin: 5px;
+}
+.num{
+    width: 25px;
+    font-size:9px;
+    background-color: orange;
+    border-radius: 100%;
+    padding: 2%;
+    margin:3px;
+    text-align:center;
+    border:10px;
+    color:white;
 }
