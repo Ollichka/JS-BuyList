@@ -7,70 +7,40 @@
 </head>
 <body>
 <div class="frame1">
-    <input type="text" placeholder=" Назва товару" class="text">
-    <button type="button" class="button">
-        Додати
-    </button>
+    <input type="text" placeholder=" Назва товару" class="text1">
+    <button type="button" class="button">Додати</button>
     <div class="lines"></div>
-    <input type="text" class="prod" value="Помідори">
-    <div class="a1">
-        <button type="button" class="button1" style="  background-color: rgba(226, 37, 19, 0.39);">
-            -
-        </button>
-        <span class="count">1</span>
-        <button type="button" class="button1" style="  background-color: green;">
-            +
-        </button>
-    </div>
-    <button type="button" class="button2">
-        Куплено
-    </button>
-    <button type="button" class="button3">
-        X
-    </button>
-    <div class="lines"></div>
-    <input type="text" value="Печиво" class="prod">
-    <div class="a1">
-        <button type="button" class="button1" style="  background-color: rgba(226, 37, 19, 0.39);">
-            -
-        </button>
-        <span class="count">1</span>
-        <button type="button" class="button1" style="  background-color: green;">
-            +
-        </button>
-    </div>
-    <button type="button" class="button2">
-        Куплено
-    </button>
-    <button type="button" class="button3">
-        X
-    </button>
-    <div class="lines"></div>
-    <input type="text" value="Сир" class="prod">
-    <div class="a1">
-        <button type="button" class="button1" style="  background-color: rgba(226, 37, 19, 0.39);">
-            -
-        </button>
-        <span class="count">1</span>
-        <button type="button" class="button1" style="  background-color: green;">
-            +
-        </button>
-    </div>
-    <button type="button" class="button2">
-        Куплено
-    </button>
-    <button type="button" class="button3">
-        X
-    </button>
-    <div class="lines"></div>
+    <span class="listOfItems">
+        <span class="oneItem">
+            <input type="text" class="prod" value="Помідори">
+            <div class="a1">
+                <button type="button" class="buttonminus">-</button>
+                <span class="count">1</span>
+                <button type="button" class="buttonplus">+</button>
+            </div>
+            <button type="button" class="button2">Куплено</button>
+            <button type="button" class="button3">X</button>
+            <div class="lines"></div>
+        </span>
+    </span>
 </div>
 <div class="frame2">
-    <spam class="text2">Залишилось</spam>
+    <span class="text2">Залишилось</span>
     <div class="lines"></div>
-    <span class="select">Помідори <span class="num ">1</span></span><span class="select">Печиво <span
-        class="num ">1</span></span><span class="select">Сир <span class="num ">1</span></span>
+    <span class="select">
+        <span class="list2">
+            <span class="oneOrd">
+            <span class="name">Помідори</span>
+            <span class="num ">1</span>
+                </span>
+        </span>
+    </span>
     <div class="lines"></div>
-    <spam class="text2">Куплено</spam>
+    <span class="text2">Куплено</span>
+    <span clas="bought">
+        <span class="oneBought"></span>
+    </span>
+
     <div class="lines"></div>
 </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
