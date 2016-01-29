@@ -54,12 +54,12 @@
 }
 
 
-.button2{
+.bought{
     padding:5px;
     display:	inline-block;
     box-shadow: 0 0 3px gray;
 }
-.button3{
+.delete{
     width: 35px;
     height: 35px;
     display:	inline-block;
@@ -95,9 +95,9 @@
     margin-left:150px;
 }
 .select{
+    background-color: white;
     font-size:11px;
     width: 80px;
-    height: 10px;
     padding:8px;
     margin: 5px;
 }
@@ -109,7 +109,6 @@
     padding: 2%;
     margin:5px;
     text-align:center;
-    border:10px;
     color:white;
 }
 .lines{
@@ -131,11 +130,29 @@
 .listOfItems{
     background-color: white;
 }
-.list2{
+
+.notBought{
+    width: 20%;
+    height: 35px;
     margin:5px;
+    text-align:center;
+    float: inherit;
 }
-.name{
+
+
+.ord{
+    margin: 5px;
+    padding : 5px;
 }
-.oneOrd{
+
+.buyIT{
+    background-color: white;
+    padding:8px;
+    margin: 5px;
+}
+
+.nameP{
 
 }
+
+
