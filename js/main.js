@@ -21,7 +21,7 @@ $(function(){
             '</span>');
 
         LIST1.append(item);
-        var item2 = $('<span class="ord"'+'<span class="nameP">'+title+
+        var item2 = $('<span class="ord"'+'<span class="nameP">'+'<span class="na">'+title+'</span>'+
             '<span class="num">1</span>'+'</span>'+'</span>');
         LIST2.append(item2);
 
@@ -34,7 +34,8 @@ $(function(){
         var count = item.find(".count");
         var kil = count.text();
         var name = item.find(".prod");
-        var name2 = item.find(".nameP");
+        var name2 = item.find(".na");
+        console.log($(name2).text());
 
         $(minus).prop("disabled", true);
         $(nobuy).hide();
@@ -95,6 +96,16 @@ $(function(){
             num.css("text-decoration","none");
             LIST2.append(item2);
             nobuy.hide();
+        });
+
+        $(name).focus(function(){
+            $(name).keyup(function (event) {
+                    title = name.val();
+                console.log(title);
+                    $(name2).text(title);
+                console.log($(name2).text());
+            });
+
         });
 
     }
